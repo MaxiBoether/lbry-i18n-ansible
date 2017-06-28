@@ -1,0 +1,5 @@
+i18n.lbry.io {
+    root /var/www
+    gzip
+    tls maxi@boether.de
+}
