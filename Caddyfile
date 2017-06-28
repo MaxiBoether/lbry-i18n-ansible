@@ -2,4 +2,9 @@ i18n.lbry.io {
     root /var/www
     gzip
     tls maxi@boether.de
+	fastcgi / /var/run/php/php7.0-fpm.sock {
+	ext 	.php
+	split	.php
+	index	index.php
+	}
 }
