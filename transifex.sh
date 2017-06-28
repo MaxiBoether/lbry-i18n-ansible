@@ -12,7 +12,7 @@ type = KEYVALUEJSON
 minimum_perc = 90
 EOL
 
-cat >~/transifexrc <<EOL
+cat >~/.transifexrc <<EOL
 [https://www.transifex.com]
 hostname = https://www.transifex.com
 password = $1
